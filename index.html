@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Homepage</title>
+</head>
+<body>
+  <header class="page-header">
+    <section class="user-info">
+        <ul>
+          <li><a href="#" class="phone">Custom care: 888-23-4567</a></li>
+          <li><a href="#">$ US<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <li><img src="img/contact-user-iphone.png" alt="User logo"><a href="#">My account</a></li>
+          <li><a href="#"><i class="fa fa-search fa-rotate-90" aria-hidden="true"></i></a></li>
+        </ul>
+    </section>
+    <section class="user-navigation">
+        <div class="shop-logo"><img src="img/shop-logo.png" alt="Shop logo"></div>
+        <nav class="main-menu">
+        <ul>
+          <li><a href="#">new<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <li><a href="#">designers<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <li><a href="#">women<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <li><a href="#">men<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <li><a href="#">clearence<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="menu-text">Menu</div>
+        <div class="menu-icon"><img src="img/menu-icon.png" alt="Menu icon" width="33" height="30"></div>
+        </nav>
+        <form class="order-form" action="/echo" method="post">
+            <select name="cart" id="cart">
+              <option value="your cart">Your cart</option>
+            </select>
+            <div class="form-data">
+            <div class="icon-order"></div>
+            <input type="text" disabled name="order" id="order" placeholder="0 ITEMS | $ 0">
+            </div>
+        </form>
+    </section>
+    <section class="slider">
+    <a href="#" class="slider-button-1"></a>
+    <div class="slider-container">
+        <div class="collection-name">Crazy</div>
+        <div class="collection-logo"><img src="img/slider-logo.png" alt="Sliser logo"></div>
+        <div class="collection-type">Woman collection</div>
+        <a href="#" class="btn btn-buy">Shop now<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+    </div>
+    <a href="#" class="slider-button-2"></a>
+    </section>
+    <div class="slider-controls">
+        <a href="#" class="slider-controls-button"></a>
+        <a href="#" class="slider-controls-button"></a>
+        <a href="#" class="slider-controls-button"></a>
+        <a href="#" class="slider-controls-button"></a>
+        <a href="#" class="slider-controls-button"></a>
+    </div>
+  </header>
+
+  <main>
+    <div class="contact-wrapper">
+    <section class="contact">
+        <div class="email">
+            <div class="text-item">Stay updated</div>
+            <form class="contact-form" action="/echo" method="post">
+              <input type="text" name="email" id="email" placeholder="Your email address">
+            </form>
+            <a href="#" class="contact-button"><i class="fa fa-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="social">
+            <div class="text-item">Find us here</div>
+            <div class="social-icons">
+              <a class="social-icon-1" href="#"></a>
+              <a class="social-icon-2" href="#"></a>
+              <a class="social-icon-3" href="#"></a>
+            </div>
+        </div>
+    </section>
+    </div>  
+    <section class="advertising">
+        <article class="adv-block-1">
+          <section class="text-container-1">
+            <div class="text-item-1">best</div>
+            <div class="text-item-2">outfits</div>
+            <div class="circle"></div>
+            <div class="text-item-3">&</div>
+            <div class="text-item-4">looks</div>
+          </section>     
+        </article>
+        <article class="adv-block-2">
+            <section class="text-container-2">
+                <div class="container"> 
+                  <div class="text-item-1">Summer</div>
+                  <div class="text-item-2">party</div>
+                  <div class="text-item-3">collection</div>
+                </div>
+            </section>
+            <section class="article-container">
+            <article class="adv-block-3">
+                <div class="text-item">Best sellers<i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </article>
+            <article class="adv-block-4">
+                <div class="text-item">Fall leather</div>
+                <a href="#" class="button">Shop now<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+            </article>
+            </section>
+        </article>
+    </section>
+    <nav class="products-menu">
+        <ul>
+          <li><a href="#" class="selected">what's hot?</a></li>
+          <li><a href="#">designers</a></li>
+          <li><a href="#">featured</a></li>
+          <li><a href="#">latest</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="angle"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="angle-active"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="products-menu-text">what's hot?</div>
+        <div class="products-menu-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+    </nav>
+    <section class="product-items">
+        <figure class="product-item partial-1">
+            <a href="#"><img src="img/top.jpg" alt="Top" width="85" height="290"></a>
+            <span class="shop-it">Shop it</span>
+          <figcaption>
+            <p class="name">Top</p>
+            <p class="price">$55.9</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>  
+        </figure>
+        <figure class="product-item">
+          <a href="#"><img src="img/mimosa-lace-dress.jpg" alt="Mimosa Lace Dress" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <figcaption>
+            <p class="name">Mimosa Lace Dress</p>
+            <p class="price">$76.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item">
+          <a href="#"><img src="img/feel-tank.jpg" alt="Feel Tank" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <p class="sale">Sale</p>
+          <div class="triangle triangle-grey"></div>
+          <div class="triangle triangle-white"></div>
+          <figcaption>
+            <p class="name">Feel Tank</p>
+            <p class="price">$59.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item">
+          <a href="#"><img src="img/hot-shorts.jpg" alt="Hot Shorts" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <figcaption>
+            <p class="name">Hot Shorts</p>
+            <p class="price">$35.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item">
+          <a href="#"><img src="img/petrol-sweater.jpg" alt="Petrol Sweater" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <p class="sale">Sale</p>
+          <div class="triangle triangle-grey"></div>
+          <div class="triangle triangle-white"></div>
+          <figcaption>
+            <p class="name">Petrol Sweater</p>
+            <p class="price">$21.50</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item partial-2">
+          <a href="#"><img src="img/nio.jpg" alt="Nio" width="85" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <p class="sale">Sale</p>
+          <div class="triangle triangle-grey"></div>
+          <div class="triangle triangle-white"></div>
+          <figcaption>
+            <p class="name">Nio</p>
+            <p class="price">$55.9</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item-iphone">
+          <a href="#"><img src="img/mimosa-lace-dress-iphone.jpg" alt="Mimosa Lace Dress" width="274" height="362"></a>
+          <figcaption>
+            <p class="name">Mimosa Lace Dress</p>
+            <p class="price">$76.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="product-item-iphone">
+          <a href="#"><img src="img/wishvitalise-dress-iphone.jpg" alt="Wishvitalise Dress" width="274" height="362"></a>
+          <figcaption>
+            <p class="name">Wishvitalise Dress</p>
+            <p class="price">$96.55</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+    </section>
+    <section class="load-more">
+        <a href="#" class="btn-load-more">Load more</a>
+    </section>
+    <section class="clearance">
+        <div class="clearance-logo">
+          <img src="img/shape-clearance.png" alt="Clearance" width="158" height="158">
+          <span class="clearance-logo-item-1">Clearance</span>
+          <span class="clearance-logo-item-2">50</span>
+          <span class="clearance-logo-item-3">%</span>
+          <span class="clearance-logo-item-4">off</span>
+        </div>
+    <section class="clearance-items">
+        <figure class="clearance-item">
+           <a href="#"><img src="img/nadia-dress.jpg" alt="Nadia Dress" width="220" height="290"></a>
+           <span class="shop-it">Shop it</span>
+          <figcaption>
+            <p class="name">Nadia Dress</p>
+            <p class="price">$64.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="clearance-item">
+          <a href="#"><img src="img/sofi-blouse.jpg" alt="Sofi Blouse" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <p class="sale">Sale</p>
+          <div class="triangle triangle-grey"></div>
+          <div class="triangle triangle-white"></div>
+          <figcaption>
+            <p class="name">Sofi Blouse</p>
+            <p class="price">$26.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>            
+        </figure>
+        <figure class="clearance-item">
+          <a href="#"><img src="img/gooding-shorts.jpg" alt="Gooding Shorts" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <figcaption>
+            <p class="name">Gooding Shorts</p>
+            <p class="price">$79.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="clearance-item">
+          <a href="#"><img src="img/mimosa-black.jpg" alt="Mimosa Lace Dress" width="220" height="290"></a>
+          <span class="shop-it">Shop it</span>
+          <p class="sale">Sale</p>
+          <div class="triangle triangle-grey"></div>
+          <div class="triangle triangle-white"></div>
+          <figcaption>
+            <p class="name">Mimosa Lace Dress</p>
+            <p class="price">$76</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>      
+        </figure>
+        <figure class="clearance-item-iphone">
+          <a href="#"><img src="img/atmos-iphone.jpg" alt="Atmos Shopper" width="274" height="311"></a>
+          <figcaption>
+            <p class="name">Atmos&Here Shopper</p>
+            <p class="price">$49.95</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+        <figure class="clearance-item-iphone">
+          <a href="#"><img src="img/wishvitalise-bag-iphone.jpg" alt="Wishvitalise Dress" width="274" height="311"></a>
+          <figcaption>
+            <p class="name">Wishvitalise Dress</p>
+            <p class="price">$96.55</p>
+            <a href="#" class="btn btn-add">Add to cart<i class="fa fa-plus" aria-hidden="true"></i></a>
+          </figcaption>
+        </figure>
+    </section>
+    <section class="load-more-clearance">
+        <a href="#" class="btn-load-more">Load more</a>
+    </section>
+    </section> 
+    <section class="brands">
+      <h3 class="brands-title">Favourite brands</h3>
+      <ul class="brands-items">
+        <li class="brands-item">
+            <img src="img/addict.png" alt="Addict" width="83" height="31">
+        </li>
+        <li class="brands-item">
+            <img src="img/abandon.png" alt="Abandon" width="51" height="57">
+        </li>
+        <li class="brands-item">
+            <img src="img/adidas.png" alt="Adidas" width="57" height="47">
+        </li>
+        <li class="brands-item">
+            <img src="img/london.png" alt="Boy London" width="56" height="38">
+        </li>
+        <li class="brands-item">
+            <img src="img/converse.png" alt="Converse" width="84" height="16">
+        </li>
+        <li class="brands-item">
+            <img src="img/calvin.png" alt="Calvin Klein" width="98" height="19">
+        </li>
+        <li class="brands-item">
+            <img src="img/edwin.png" alt="Edwin" width="69" height="22">
+        </li>
+        <li class="brands-item">
+            <img src="img/grenson.png" alt="Grenson" width="137" height="27">
+        </li>
+      </ul>
+    </section>
+    <section class="about">
+      <h2 class="about-title">About LookShop</h2>
+      <p class="about-info">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</p>
+    </section>
+    </main>
+
+    <footer class="page-footer">
+        <section class="paycards">
+          <div class="cards-text">We accept</div>
+          <div class="cards-icons">
+              <a class="cards-icon-1" href="#"></a>
+              <a class="cards-icon-2" href="#"></a>
+              <a class="cards-icon-3" href="#"></a>
+              <a class="cards-icon-4" href="#"></a>
+              <a class="cards-icon-5" href="#"></a>
+              <a class="cards-icon-6" href="#"></a>
+              <a class="cards-icon-7" href="#"></a>
+              <a class="cards-icon-8" href="#"></a>
+              <a class="cards-icon-9" href="#"></a>
+              <a class="cards-icon-10" href="#"></a>
+              <a class="cards-icon-11" href="#"></a>
+          </div>
+        </section>
+        <section class="footer-info">
+          <div class="footer-links">
+            <div class="block-group-1">
+              <div class="footer-links-block">  
+                <h3 class="footer-links-title">Customer Service</h3>
+                <ul class="footer-links-items">
+                    <li class="footer-links-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Terms of payment</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Terms of sale</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Delivery terms and conditions</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Returns and Refunds</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="footer-links-block">
+                  <h3 class="footer-links-title">Information</h3>
+                  <ul class="footer-links-items">
+                    <li class="footer-links-item">
+                        <a href="#">Affiliate</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Cookies</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">How to Shop</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">About Nelly</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Investor relations</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="block-group-2">  
+              <div class="footer-links-block newline-block">
+                  <h3 class="footer-links-title">Campaigns</h3>
+                  <ul class="footer-links-items">
+                    <li class="footer-links-item">
+                        <a href="#">Evening dresses</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Makeup</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Fashion forward</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Training clothes</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Special Occasion Dresses</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="footer-links-block">
+                  <h3 class="footer-links-title">Stores</h3>
+                  <ul class="footer-links-items">
+                    <li class="footer-links-item">
+                        <a href="#">Paris</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">New York</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">London</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Madrid</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#">Tokio</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-icon-block">
+              <div class="footer-social">
+                <h3 class="footer-social-title">Social</h3>
+                <ul class="footer-social-items">
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-tumblr" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-vimeo" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              <div class="footer-secure">
+                <img src="img/secured.png" alt="Secured" width="107" height="107">
+                <span class="secure-item-1">100%</span>
+                <span class="secure-item-2">secured</span>
+              </div>
+          </div>
+        </section>
+        <section class="footer-navigation">
+          <nav class="footer-menu">
+            <ul class="footer-menu-items">
+                <li class="footer-menu-item">
+                    <a href="#">Privacy & Cookies </a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#">Accessibility</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#">Store Directory </a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+          </nav>
+          <div class="footer-menu-icon"><img src="img/menu-icon.png" alt="Footer menu icon" width="33" height="30"></div>
+          <div class="copyright">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> LookShop.com<br> All Rights Reserved</p>
+          </div>
+        </section>
+    </footer>
+</body>
+</html>
